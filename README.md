@@ -27,6 +27,8 @@ To:
 - We call the main function next, it is the entry point of any program in C++. We generally used the datatype int along with main function.
 - 'int' is the return datatype of main. When the scope of function ends, it returns 0.
 - 'cin' is the input function while 'cout' is the output.
+- If, else are conditional statements that execute a set of insturctions under their scope.
+- If the condition is true, the code under if is executed, if false, the code under else part is executed. 
 
 ### ✅ Part 2: Hello World and Basic Calculator
 - Using 'cout' we print Hello World. To print the next sentence in a new line, we may use "\n" or endl.
@@ -43,6 +45,7 @@ To:
 - Input/output streams (`cin`, `cout`)
 - Operators (`+`, `-`, `*`, `/`)
 - Datatypes(`float`,`long float`)
+- Conditional Statements(`if`,`else`)
 
 ---
 
