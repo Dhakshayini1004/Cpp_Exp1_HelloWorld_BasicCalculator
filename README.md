@@ -22,7 +22,7 @@ To:
 
 ### ✅ Part 1: Syntax
 - We use the '#include' - the preprocessor directive to include the <iostream> headerfile.
-- '<iostream>' is used so as to include cin, cout and endl in our program.
+- 'iostream' is used so as to include cin, cout and endl in our program.
 - 'using namespace' is a keyword tells the compiler which namespace to use by default, so you don't have to keep typing the namespace prefix (like std::) in front of standard library names.
 - We call the main function next, it is the entry point of any program in C++. We generally used the datatype int along with main function.
 - 'int' is the return datatype of main. When the scope of function ends, it returns 0.
