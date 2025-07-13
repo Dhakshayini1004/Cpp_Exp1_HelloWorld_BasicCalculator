@@ -1,61 +1,66 @@
-#  C_Plus_Plus
+# C++ Experiment 1: Hello World and Calculator Program
 
-A collection of beginner-friendly C++ programs to learn basic concepts like loops, arrays, functions, and OOP.
+## Aim
 
----
-
-## About the Repository
-
-This repository contains all the programs written during lab sessions. Each program folder contains:
--  Source Code
--  A README file explaining the logic and output
+To:
+1. Write a C++ program to display "Hello, World!" on the screen.
+2. Write a simple calculator program to perform basic arithmetic operations: addition, subtraction, multiplication, and division.
 
 ---
 
-## Programming Tool
+## Objectives
 
-- Visual Studio Code (VS Code)
-
----
-
-## Experiments Included
-
-| S.No | Experiment Title |
-|------|------------------|
-| 1    | Hello World and Calculator program |
-| 2    | To study and implement C++ Program Structure (Data Types) |
-| 3    | To study and implement Operators in C++ |
-| 4    | To study and implement Bitwise Operators |
-| 5    | To study and implement C++ Decision Making Statements |
-| 6    | To study and implement Loops |
-| 7    | To study and implement Arrays and Strings |
-| 8    | 2D Arrays – Matrices |
-| 9    | Pointer Basics |
-| 10   | Pointer Operations (Call by Value and Reference) |
-| 11   | Classes and Objects |
-| 12   | Constructors and Destructors |
-| 13   | Constructor Overloading |
-| 14   | Inheritance |
-| 15   | Recursion |
-| 16   | Exception Handling |
-| 17   | Linked List |
-| 18   | Stack using Arrays (Push, Pop, Display, Exit) |
-| 19   | Queue using Arrays (Insert, Delete, Display, Exit) |
-| 20   | Sorting Algorithms (Selection, Insertion, Bubble Sort) |
+- Understand the basic structure of a C++ program.
+- Learn to use `cin` and `cout` for input and output.
+- Learn to use the keyword 'using namespace'.
+- Perform arithmetic operations based on user input.
+- Use // to write comments to describe certain steps on a program.
 
 ---
 
-## Folder Structure
+## Program Description
 
-Each experiment is stored in a folder like `Exp1_Helloworld`, `Exp2_Datatypes`, etc., containing:
-- `main.cpp`
-- `README.md`
+### ✅ Part 1: Syntax
+- We use the '#include' - the preprocessor directive to include the <iostream> headerfile.
+- <iostream> is used so as to include cin, cout and endl in our program.
+- 'using namespace' is a keyword tells the compiler which namespace to use by default, so you don't have to keep typing the namespace prefix (like std::) in front of standard library names.
+- We call the main function next, it is the entry point of any program in C++. We generally used the datatype int along with main function.
+- 'int' is the return datatype of main. When the scope of function ends, it returns 0.
+- 'cin' is the input function while 'cout' is the output.
+
+### ✅ Part 2: Hello World and Basic Calculator
+- Using 'cout' we print Hello World. To print the next sentence in a new line, we may use "\n" or endl.
+- We input 2 floats after defining 2 variables to hold values, using the cin function.
+- Along with the input variables, we also define sum,diff,prod,quot.
+- We can also use long float to increase the size of prod.
+- After assigning each variable an arithematic operation, we print them with cout.
 
 ---
+
+## Concepts Used
+
+- Header files (`#include`)
+- Input/output streams (`cin`, `cout`)
+- Operators (`+`, `-`, `*`, `/`)
+- Datatypes(`float`,`long float`)
+
+---
+
+## Sample Output
+
+Hello World
+Enter num1 : 22
+Enter num_2 : 333
+Sum : 355
+Difference : -311
+Product : 7326
+Division : 0.0660661
 
 ## Note
 
-Make sure to go through the `README.md` inside each folder for explanation and sample output.
+While defining variables, we follow a naming convention, variable names can start only with alphabets. However we can use numbers and _ followed by it.
+
+
 
 
 
