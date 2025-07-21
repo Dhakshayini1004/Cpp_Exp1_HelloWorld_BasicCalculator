@@ -8,6 +8,11 @@ To:
 
 ---
 
+## Tool Used
+VS Code
+
+---
+
 ## Objectives
 
 - Understand the basic structure of a C++ program.
