@@ -55,7 +55,7 @@ VS Code
 ---
 
 ## Sample Output
-
+```
 Hello World
 Enter num1 : 22
 Enter num_2 : 333
@@ -63,7 +63,7 @@ Sum : 355
 Difference : -311
 Product : 7326
 Division : 0.0660661
-
+```
 ## Note
 
 While defining variables, we follow a naming convention, variable names can start only with alphabets. However we can use numbers and _ followed by it.
